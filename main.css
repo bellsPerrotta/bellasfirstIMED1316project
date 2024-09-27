@@ -5,37 +5,72 @@
 }
 body {background: url(IMG_2503.JPG)repeat}
 
-* {
-	text-align: center;
-}
+
 h1{
-color: rgba(255,128,21,1.00)
+color: rgba(255,128,21,1.00);
+	text-align: center
+}
+
+.img1{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pre1{
-color: rgba(255,128,21,1.00)
+color: rgba(255,128,21,1.00);
+	text-align: center
+}
+a:link {
+	color: rgba(255,128,21,1.00)
+}
+a:visited {
+	color: rgba(255,128,21,1.00)
 }
 h2{
 color: rgba(255,255,255,1.00);
-border-radius: 12px;
-padding-top: 20px;
 background-color:rgba(177,115,210,.5);
-padding-bottom: 20px;
-padding-left: 40px;
-padding-right: 40px;
+  width: 300px;
+  border: 15px;
+  padding: 40px;
+  margin: auto;
+	text-align: center;
+	border-radius: 12px;
 }
+.img2 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .pre2{
 color: rgba(177,115,210,1.00);
+text-align: center;
 }
+
 .h3{
 color: rgba(255,255,255,1.00);
-border-radius: 12px;
-padding-top: 20px;
-background-color:rgba(0,185,98,.5);
-padding-bottom: 20px;
-padding-left: 40px;
-padding-right: 40px;
+	background-color:rgba(0,185,98,.5);
+ width: 300px;
+  border: 15px;
+  padding: 40px;
+	border-radius: 12px;
+	text-align: center;
+	margin:auto;
+
+}
+
+.img3 {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pre3 {
-color:rgba(0,185,98,1.00)
+color:rgba(0,185,98,1.00);
+	text-align: center
+}
+
+.s{
+	float:right;
+	color: rgba(0,51,251,1.00)
 }
